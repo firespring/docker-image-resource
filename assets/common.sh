@@ -206,5 +206,5 @@ docker_pull() {
   done
 
   printf "\n${RED}Failed to pull image %s.${NC}" "$1"
-  return 1
+  return 0
 }
